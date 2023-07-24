@@ -1,0 +1,45 @@
+Based on the recorded results of the performance analysis for different array sizes, we can observe the following:
+
+Performance Comparison:
+For 100 elements, all three sorting algorithms perform reasonably well and have similar execution times.
+Bubble sort-> 0.1642 milliseconds, Selection sort-> 0.1939 milliseconds, Insertion sort-> 0.1091 milliseconds
+
+For 500 elements, Selection Sort is noticeably faster than Bubble Sort, while Insertion Sort performs similarly to Bubble Sort.
+Bubble sort-> 0.8018 milliseconds, Selection sort-> 0.3135 milliseconds, Insertion sort-> 0.1929 milliseconds
+
+For 5000 elements, Selection Sort and Insertion Sort are significantly faster than Bubble Sort.
+Bubble sort-> 76.1017 milliseconds, Selection sort-> 28.6221 milliseconds, Insertion sort-> 17.529 milliseconds
+
+For 10000 elements, the performance gap between Bubble Sort and the other two algorithms widens, with Bubble Sort taking significantly more time to sort the array.
+Bubble sort-> 312.1582 milliseconds, Selection sort-> 114.2238 milliseconds, Insertion sort-> 75.0173 milliseconds
+
+Analysis:
+Bubble Sort:
+Bubble Sort exhibits poor performance for larger arrays. It is relatively inefficient for larger datasets.
+It performs reasonably well for smaller arrays and partially sorted data.
+It has the advantage of being a simple and easy-to-understand algorithm with in-place sorting.
+
+Selection Sort:
+Selection Sort shows better performance than Bubble Sort for larger datasets as, it performs fewer swaps, making it more efficient.
+Selection Sort performs well for small arrays but is not as efficient as more advanced sorting algorithms like Merge Sort or Quick Sort.
+
+Insertion Sort:
+Insertion Sort exhibits similar performance to Bubble Sort and Selection Sort for small arrays and partially sorted data.
+It should performs well when the array is nearly sorted.
+Like Bubble Sort and Selection Sort, Insertion Sort is not recommended for larger datasets where faster algorithms like Merge Sort or Quick Sort are more suitable.
+
+Advantages and Disadvantages of Bubble Sort:
+Advantages:
+Simple to understand and implement.
+Requires minimal additional memory space, as it performs in-place sorting.
+Can perform well on small datasets or partially sorted arrays.
+
+Disadvantages:
+Inefficient for large datasets due to its O(n^2) time complexity.
+Lacks adaptiveness, as it doesn't perform significantly better on nearly sorted data.
+Not recommended for real-world applications or large-scale systems where faster sorting algorithms are available.
+
+Conclusion:
+Bubble Sort, Selection Sort, and Insertion Sort are simple sorting algorithms suitable for small datasets or partially sorted arrays.
+For larger datasets, the performance of Bubble Sort degrades significantly compared to Selection Sort and Insertion Sort, which perform better.
+If efficiency is a concern, especially for larger arrays, it is recommended to use more advanced sorting algorithms like Merge Sort or Quick Sort, which offer superior performance in practice.

@@ -1,0 +1,36 @@
+Sorting 100 elements with bubble sort
+Bubble Sort took 0.1644 milliseconds
+Array sorted corrctly
+Sorting 100 elements with selection sort
+Selection Sort took 0.19 milliseconds
+Array sorted corrctly
+Sorting 100 elements with insertion sort
+Insertion Sort took 0.1091 milliseconds
+Array sorted correctly
+ Sorting 500 elements with bubble sort
+Bubble Sort took 0.8018 milliseconds
+Array sorted corrctly
+Sorting 500 elements with selection sort
+Selection Sort took 0.3135 milliseconds
+Array sorted corrctly
+Sorting 500 elements with insertion sort
+Insertion Sort took 0.1929 milliseconds
+Array sorted correctly
+ Sorting 5000 elements with bubble sort
+Bubble Sort took 76.1017 milliseconds
+Array sorted corrctly
+Sorting 5000 elements with selection sort
+Selection Sort took 28.6221 milliseconds
+Array sorted corrctly
+Sorting 5000 elements with insertion sort
+Insertion Sort took 17.529 milliseconds
+Array sorted correctly
+ Sorting 10000 elements with bubble sort
+Bubble Sort took 312.1582 milliseconds
+Array sorted corrctly
+Sorting 10000 elements with selection sort
+Selection Sort took 114.2238 milliseconds
+Array sorted corrctly
+Sorting 10000 elements with insertion sort
+Insertion Sort took 75.0173 milliseconds
+Array sorted correctly
